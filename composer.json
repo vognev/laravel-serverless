@@ -1,0 +1,30 @@
+{
+    "name": "vognev/laravel-serverless",
+    "type": "library",
+    "description": "",
+    "require": {
+        "php": ">=7.2.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-curl": "*",
+        "ext-intl": "*",
+        "ext-zip": "*",
+        "illuminate/console": "5.8.*",
+        "illuminate/contracts": "5.8.*",
+        "illuminate/support": "5.8.*",
+        "illuminate/http": "5.8.*",
+        "vognev/laravel-serverless-impl": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Serverless\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravel\\Serverless\\ServerlessServiceProvider"
+            ]
+        }
+    }
+}
