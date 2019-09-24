@@ -1,7 +1,14 @@
 {
     "name": "vognev/laravel-serverless",
+    "description": "Laravel/Serverless common things",
+    "keywords": ["laravel", "serverless"],
     "type": "library",
-    "description": "",
+    "license": "MIT",
+    "version": "v0.0.1",
+    "authors": [{
+        "name": "Vitaliy Ognev",
+        "email": "vitaliy.ognev@gmail.com"
+    }],
     "require": {
         "php": ">=7.2.0",
         "ext-json": "*",
@@ -13,7 +20,7 @@
         "illuminate/contracts": "5.8.*",
         "illuminate/support": "5.8.*",
         "illuminate/http": "5.8.*",
-        "vognev/laravel-serverless-impl": "dev-master"
+        "laravel/serverless": "1.0"
     },
     "autoload": {
         "psr-4": {
